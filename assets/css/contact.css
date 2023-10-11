@@ -21,156 +21,52 @@ body {
   background-color:#272935 ;
 } */
 
-.main-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .head-container {
-    width: 80%;
-  }
-  
-  nav {
-    background-color: #272935;
-    padding: 10px;
-  }
-  
-  .nav-bar tr,
-  .nav-bar-td {
-    display: inline;
-    /* padding: 10px; */
-    color: white;
-  }
-  
-  .nav-bar a {
-    color: white;
-  }
-  
-  p {
-    font-size: 24px;
-    margin: 10px;
-  }
-  
-  h1 {
-    margin-bottom: 0.5rem;
-    font-weight: 500;
-    line-height: 1.2;
-    font-size: 2.25rem;
-    font-family: Montserrat, sans-serif;
-  }
-  
-  .aboutme-text {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    box-sizing: border-box;
-    margin-top: 0;
-    margin-bottom: 1rem;
-    text-align: left;
-  }
-  
-  h3 {
-    font-weight: 700;
-    margin-top: 1.5rem;
-    font-size: 1.25rem;
-  }
-  
-  p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-  }
-  
-  .Hobbies,
-  .education,
-  .contact,
-  .Skills {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    height: 80%;
-    text-align: center;
-    background-color: #272935;
-    color: white;
-  }
-  .container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .hobbies,
-  .skills {
-    width: 40%;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    color: black;
-  }
-  
-  a {
-    color: cornflowerblue;
-  }
-  
-  a:hover {
-    color: blue;
-  }
-  
-  a:active {
-    color: blanchedalmond;
-  }
-  
-  .personal-photo {
-    width: 70%;
-    margin: 10px auto;
-    border-radius: 50%;
-  }
-  
-  form {
-    font-size: 1.5em;
-  }
-  
-  .contact-details i {
-    font-size: 1.5em;
-  }
-  
-  nav i {
-    margin-right: 5px;
-  }
-  
-  .nav-bar a {
-    margin-right: 15px;
-  }
-  
-  nav i {
-    margin-right: 1px;
-  }
-  
-  @media only screen and (max-width: 600px) {
-    .personal-photo {
-      border-radius: 10px;
-      width: 70%;
-    }
-  
-    .aboutme-text {
-      font-size: 20px;
-    }
-  
-    .hobbies,
-    .skills {
-      width: 80%;
-    }
-    .Skills,
-    .Hobbies {
-      width: 80%;
-    }
-  }
-  
-  
+nav {
+  background-color: #272935;
+  padding: 10px;
+}
+
+.nav-bar tr,
+.nav-bar-td {
+  display: inline;
+  /* padding: 10px; */
+  color: white;
+}
+
+.nav-bar a {
+  color: white;
+  margin-right: 15px;
+}
+nav i {
+  margin-right: 5px;
+}
+
+.contact {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 80%;
+  text-align: center;
+  background-color: #272935;
+  color: white;
+}
+a {
+  color: cornflowerblue;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: blanchedalmond;
+}
+
+form {
+  font-size: 1.5em;
+}
+
+.contact-details i {
+  font-size: 1.5em;
+}

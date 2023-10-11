@@ -1,23 +1,21 @@
 nav {
-    background-color: #272935;
-    padding: 10px;
-  }
-  
-  .nav-bar tr,
-  .nav-bar-td {
-    display: inline;
-    /* padding: 10px; */
-    color: white;
-  }
-  
-  .nav-bar a {
-    color: white;
-    margin-right: 20px;
+  background-color: #272935;
+  padding: 10px;
+}
 
-  }
-  
-.education
- {
+.nav-bar tr,
+.nav-bar-td {
+  display: inline;
+  /* padding: 10px; */
+  color: white;
+}
+
+.nav-bar a {
+  color: white;
+  margin-right: 20px;
+}
+
+.education {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -27,40 +25,36 @@ nav {
   background-color: #272935;
   color: white;
 }
-  
-  
-  
-  .education-info {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .education-table {
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-  }
-  
-  .table-title{
-    border: 3px solid green;
-  }
-  
-  .education-table th, .education-table td{
-    border: 2px solid black;
-    padding: 5px;
-    
-  }
 
-  .education{
-    font-size: 35px;
-  }
+.education-info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  body{
-    
-    color: rgb(0, 0, 0);
+.education-table {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
 
-  }
+.table-title {
+  border: 3px solid green;
+}
+
+.education-table th,
+.education-table td {
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.education {
+  font-size: 35px;
+}
+
+body {
+  color: rgb(0, 0, 0);
+}
