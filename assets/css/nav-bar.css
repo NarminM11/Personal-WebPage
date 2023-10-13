@@ -1,0 +1,15 @@
+.nav-bar tr,
+.nav-bar-td {
+  display: inline;
+  /* padding: 10px; */
+  color: white;
+}
+
+.nav-bar a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+nav i {
+  margin-right: 5px;
+}

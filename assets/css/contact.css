@@ -27,7 +27,7 @@ body{
 }
 
 nav {
-  background-color: #272935;
+  background-color: #355E3B;
   padding: 10px;
   font-size: 24px;
   font-family: 'Pixelify Sans', sans-serif;
@@ -39,16 +39,15 @@ nav {
   display: inline;
   /* padding: 10px; */
   color: white;
+  font-size: 20px;
 }
 
 .nav-bar a {
   color: white;
-  margin-right: 15px;
+  margin-right: 20px;
   text-decoration: none;
 }
-nav i {
-  margin-right: 5px;
-}
+ 
 h2{
   font-size: 30px;
 }
@@ -60,7 +59,7 @@ h2{
   width: 40%;
   height: 80%;
   text-align: center;
-  background-color: #272935;
+  background-color: #5F8575;
   border-radius: 10px;
   color: white;
 }

@@ -4,7 +4,7 @@ body {
 }
 
 nav {
-  background-color: #272935;
+  background-color: #355E3B;
   padding: 10px;
   font-size: 24px;
   font-family: 'Pixelify Sans', sans-serif;
@@ -14,7 +14,6 @@ nav {
 .nav-bar tr,
 .nav-bar-td {
   display: inline;
-  /* padding: 10px; */
   color: white;
   font-size: 20px;
 }
@@ -29,12 +28,12 @@ nav {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  /* padding:10px; */
   width: 40%;
   height: 80%;
   text-align: center;
-  background-color: #272935;
+  background-color: #5F8575;
   border-radius: 10px;
-
   color: white;
 }
 
@@ -53,9 +52,9 @@ nav {
   font-size: 24px;
 }
 
-.table-title {
+/* .table-title {
   border: 3px solid green;
-}
+} */
 
 .education-table th,
 .education-table td {
