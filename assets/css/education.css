@@ -1,6 +1,14 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
 nav {
   background-color: #272935;
   padding: 10px;
+  font-size: 24px;
+  font-family: 'Pixelify Sans', sans-serif;
+
 }
 
 .nav-bar tr,
@@ -8,11 +16,13 @@ nav {
   display: inline;
   /* padding: 10px; */
   color: white;
+  font-size: 20px;
 }
 
 .nav-bar a {
   color: white;
   margin-right: 20px;
+  text-decoration: none;
 }
 
 .education {
@@ -23,6 +33,8 @@ nav {
   height: 80%;
   text-align: center;
   background-color: #272935;
+  border-radius: 10px;
+
   color: white;
 }
 
@@ -57,4 +69,25 @@ nav {
 
 body {
   color: rgb(0, 0, 0);
+}
+
+@media only screen and (max-width: 600px) {
+  /* a{
+    font-size: 1px;
+  } */
+
+  .education-table th,
+  .education-table td {
+    border: 1px solid black;
+    padding: 1px;
+    font-size: 15px;
+  }
+
+  nav {
+    font-size: 5px;
+  }
+
+  .education {
+    font-size: 20px;
+  }
 }
