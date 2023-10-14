@@ -64,11 +64,11 @@ h2{
   color: white;
 }
 a {
-  color: cornflowerblue;
+  color: #008000;
 }
 
 a:hover {
-  color: blue;
+  color: #32CD32		;
 }
 
 a:active {
@@ -81,6 +81,7 @@ form {
 
 .contact-details i {
   font-size: 1.9em;
+  color:#2E8B57;
 }
 
 
