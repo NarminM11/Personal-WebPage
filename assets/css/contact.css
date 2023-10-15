@@ -24,6 +24,9 @@ body {
 body{
   padding: 0;
   margin: 0;
+  background: url(../images/7815fbc86551571a18a7dfb6aaf5f37f.jpg)
+  no-repeat center center fixed;
+  /* background-size: cover; */
 }
 
 nav {
@@ -76,12 +79,22 @@ a:active {
 }
 
 form {
-  font-size: 2em;
+  font-size: 2.3em;
 }
 
+input{
+  font-size: 0.5em;
+}
+/* label{
+  background-color: #008000;
+} */
 .contact-details i {
   font-size: 1.9em;
   color:#2E8B57;
+}
+.blank-space {
+  width: 10px; /* Adjust the width as per your preference */
+  height: 10px; /* Adjust the height as per your preference */
 }
 
 

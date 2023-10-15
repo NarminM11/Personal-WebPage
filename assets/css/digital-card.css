@@ -4,9 +4,9 @@ body {
   background: url(https://cdn.britannica.com/65/162465-050-9CDA9BC9/Alps-Switzerland.jpg)
     no-repeat center center fixed;
     background-size: cover;
-
   font-family: "Montserrat", sans-serif;
   line-height: 1.42857143;
+  overflow-x: hidden;
 }
 
 main {

@@ -1,6 +1,12 @@
 body {
   padding: 0;
   margin: 0;
+  background: url(https://i.pinimg.com/564x/5a/a6/6a/5aa66a0c21cb4d4671daa241d51a0f20.jpg)
+    no-repeat center center fixed;
+    background-position: bottom right;
+
+    /* background-size: cover; */
+
 }
 
 nav {
@@ -50,6 +56,7 @@ nav {
   justify-content: center;
   align-items: center;
   font-size: 24px;
+
 }
 
 /* .table-title {
@@ -60,6 +67,7 @@ nav {
 .education-table td {
   border: 2px solid black;
   padding: 5px;
+
 }
 
 .education {
